@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LowesDemoJenkins
+  host: LowesDemoJenkins
+  disk_quota: 1024M
+  services:
+  - LowesDemoJenkins-personality_insights
